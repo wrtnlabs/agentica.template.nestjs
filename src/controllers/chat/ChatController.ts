@@ -19,7 +19,7 @@ export class MyChatController {
   public async start(
     @WebSocketRoute.Acceptor()
     acceptor: WebSocketAcceptor<
-      null,
+      undefined,
       IAgenticaRpcService<"chatgpt">,
       IAgenticaRpcListener
     >,
