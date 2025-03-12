@@ -9,10 +9,11 @@ import { Controller } from "@nestjs/common";
 import { HttpLlm, OpenApi } from "@samchon/openapi";
 import OpenAI from "openai";
 import { WebSocketAcceptor } from "tgrid";
-
+import typia from "typia";
 
 import { MyConfiguration } from "../../MyConfiguration";
 import { MyGlobal } from "../../MyGlobal";
+
 /// INSERT IMPORT HERE
 
 @Controller("chat")
