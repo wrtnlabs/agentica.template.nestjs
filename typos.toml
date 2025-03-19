@@ -11,4 +11,4 @@ Nam = "Nam"
 typia = "typia"
 
 [files]
-extend-exclude = ["*.json"]
+extend-exclude = ["*.json", "client/module/*"]
