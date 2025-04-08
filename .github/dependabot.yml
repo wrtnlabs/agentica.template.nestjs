@@ -21,13 +21,11 @@ updates:
       - dependency-name: "typescript-transform-paths"
       - dependency-name: "ts-patch"
     groups:
-      Agentica:
+      Agent:
         patterns:
           - "@agentica/*"
           - "@samchon/*"
           - "openai"
-      Samchon:
-        patterns:
           - "@nestia/*"
           - "nestia"
           - "tstl"
