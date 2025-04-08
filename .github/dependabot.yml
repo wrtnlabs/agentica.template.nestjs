@@ -8,21 +8,31 @@ updates:
     open-pull-requests-limit: 25
     versioning-strategy: increase
     allow:
+      - dependency-name: "@agentica/*"
+      - dependency-name: "@samchon/*"
+      - dependency-name: "openai"
       - dependency-name: "@nestjs/*"
       - dependency-name: "@nestia/*"
       - dependency-name: "nestia"
       - dependency-name: "tstl"
       - dependency-name: "typia"
+      - dependency-name: "tgrid"
       - dependency-name: "typescript"
       - dependency-name: "typescript-transform-paths"
       - dependency-name: "ts-patch"
     groups:
+      Agentica:
+        patterns:
+          - "@agentica/*"
+          - "@samchon/*"
+          - "openai"
       Samchon:
         patterns:
           - "@nestia/*"
           - "nestia"
           - "tstl"
           - "typia"
+          - "tgrid"
       NestJS:
         patterns:
           - "@nestjs/*"
