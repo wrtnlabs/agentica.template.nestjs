@@ -11,7 +11,6 @@ updates:
       - dependency-name: "@agentica/*"
       - dependency-name: "@samchon/*"
       - dependency-name: "openai"
-      - dependency-name: "@nestjs/*"
       - dependency-name: "@nestia/*"
       - dependency-name: "nestia"
       - dependency-name: "tstl"
@@ -31,9 +30,6 @@ updates:
           - "tstl"
           - "typia"
           - "tgrid"
-      NestJS:
-        patterns:
-          - "@nestjs/*"
       TypeScript:
         patterns:
           - "typescript"
