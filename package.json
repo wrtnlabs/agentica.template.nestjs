@@ -46,8 +46,8 @@
   },
   "homepage": "https://github.com/samchon/nestia-start#readme",
   "dependencies": {
-    "@agentica/core": "^0.25.0",
-    "@agentica/rpc": "^0.25.0",
+    "@agentica/core": "^0.27.2",
+    "@agentica/rpc": "^0.27.2",
     "@nestia/core": "^6.0.3",
     "@nestia/editor": "^6.0.3",
     "@nestia/fetcher": "^6.0.3",
