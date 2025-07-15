@@ -61,9 +61,9 @@
     "dotenv": "^16.3.1",
     "dotenv-expand": "^10.0.0",
     "inquirer": "8.2.5",
-    "openai": "5.9.0",
+    "openai": "5.9.2",
     "serialize-error": "^4.1.0",
-    "tgrid": "^1.1.0",
+    "tgrid": "^1.2.0",
     "tstl": "^3.0.0",
     "typia": "^9.5.0",
     "uuid": "^9.0.0"
